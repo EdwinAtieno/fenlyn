@@ -1,0 +1,307 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Fenlyn Contact</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Modelo template project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="{% static 'styless/bootstrap-4.1.2/bootstrap.min.css' %}">
+<link href="{% static 'pluginss/font-awesome-4.7.0/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="{% static 'styless/contact.css' %}">
+<link rel="stylesheet" type="text/css" href="{% static 'styless/contact_responsive.css' %}">
+</head>
+<body>
+
+<div class="super_container">
+	
+	<!-- Header -->
+
+	<header class="header">
+		<div class="header_content d-flex flex-row align-items-center justify-content-center">
+
+			<!-- Logo -->
+			<div class="logo_container d-flex flex-row align-items-center justify-content-start">
+				<div class="logo">
+					<a href="/">Fenlyn<span>.</span></a>
+				</div>
+				<div class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></div>
+			</div>
+
+			<!-- Main Navigation -->
+			<nav class="main_nav">
+				<ul class="d-flex flex-row align-items-start justify-content-start">
+					<li><a href="/">Home</a></li>
+                    <li><a href="blog">News</a></li>
+					<li class="active"><a href="contact">Contact</a></li>
+					<li><a href="/accounts/logout">Logout</a></li>
+				</ul>
+			</nav>
+
+
+		</div>
+	</header>
+
+	<!-- Social Bar -->
+
+	<div class="social_bar">
+		<div class="d-flex flex-row align-items-center justify-content-start">
+			<ul class="d-flex flex-row align-items-start justify-content-start">
+				<li><a href="https://www.facebook.com/lucy.adhiambo.54">Facebook</a></li>
+				<li><a href="https://twitter.com/eddymzae1?s=21">Twitter</a></li>
+				<li><a href="https://instagram.com/lucyadhiambo?igshid=tgijxs8yx8y5">Instagram</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- Menu -->
+
+	<div class="menu trans_400 d-flex flex-column align-items-start justify-content-center">
+		<div class="menu_close"><i class="fa fa-times" aria-hidden="true"></i></div>
+		<div class="menu_content">
+			<nav class="menu_nav">
+				<ul>
+					<li><a href="/">Home</a></li>
+					<li><a href="blog">News</a></li>
+					<li class="active"><a href="contact">Contact</a></li>
+                    <li><a href="/accounts/logout">Logout</a></li>
+				</ul>
+			</nav>
+
+		</div>
+	</div>
+
+	<!-- Home -->
+
+	<div class="home">
+		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="{% static 'images/StockSnap_LIDZNETFVF.jpg' %}" data-speed="0.8"></div>
+		<div class="home_title">Contact.</div>
+		<div class="home_contact scroll_to d-flex flex-row align-items-end justify-content-center" data-scroll-to="#contact">Get in touch</div>
+	</div>
+
+	<!-- Intro -->
+
+	<div class="intro">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="intro_content">
+						<div class="intro_title text-center"><h1>Fenlyn<span>.</span>The Story</h1></div>
+						<div class="intro_highlight text-center">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan dolor id enim lacinia, sed feugiat ex suscipit.</p>
+						</div>
+						<div class="intro_text text-center">
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam accumsan dolor id enim lacinia, sed feugiat ex suscipit. Nunc molestie malesuada pellentesque. Quisque mattis ante ut nisl tristique ornare. Aenean interdum dictum augue, quis egestas erat lacinia in. Proin dictum commodo nulla ut mattis. Pellentesque vel commodo nisi.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Boxes -->
+
+	<div class="boxes">
+		<div class="container">
+			<div class="row">
+				
+				<!-- Box -->
+				<div class="col-lg-4 box_col">
+					<div class="box d-flex flex-column align-items-center justify-content-center">
+						<div>
+							<div class="box_title">Nyeri</div>
+							<div class="box_list">
+								<ul>
+									<li>1095 Nanyuki Road</li>
+									<li>Nyeri</li>
+									<li>+254 791 865 606</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Box -->
+				<div class="col-lg-4 box_col">
+					<div class="box d-flex flex-column align-items-center justify-content-center">
+						<div>
+							<div class="box_title">Nanyuki</div>
+							<div class="box_list">
+								<ul>
+									<li>2591 Naromuru Town</li>
+									<li>Nanyuki</li>
+									<li>+254 791 865 606</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Box -->
+				<div class="col-lg-4 box_col">
+					<div class="box d-flex flex-column align-items-center justify-content-center">
+						<div>
+							<div class="box_title">Naromoru</div>
+							<div class="box_list">
+								<ul>
+									<li>10 Naromoru</li>
+									<li>Naromoru</li>
+									<li>+254 791 865 606</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Google Map -->
+
+	<div class="contact_map">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="map">
+						<div id="google_map" class="google_map">
+							<div class="map_container">
+								<div id="map"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="footer_image"><img src="{% static 'images/wig4.jpg' %}" alt=""></div>
+		
+		<!-- Contact -->
+		<div class="contact" id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="contact_content">
+							<div class="contact_title">Contact us<span>.</span></div>
+							<div class="contact_form_container">
+								<form action="#" class="contact_form" id="contact_form">
+									<div class="d-flex flex-lg-row flex-column align-items-end justify-content-start">
+										<div class="contact_form_content">
+											<div class="d-flex flex-xl-row flex-column align-items-center justify-content-between">
+												<div>
+													<input type="text" class="contact_input" placeholder="Name" required="required">
+												</div>
+												<div>
+													<input type="email" class="contact_input" placeholder="E-mail" required="required">
+												</div>
+											</div>
+											<div>
+												<textarea class="contact_input contact_textarea" placeholder="Message" required="required"></textarea>
+											</div>
+										</div>
+										<div class="contact_form_button_container">
+											<button class="contact_form_button button">Send Message</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+		<div class="footer_container">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="footer_container_inner d-flex flex-xl-row flex-column align-items-start justify-content-start">
+							<div>
+								<div class="footer_logo_container">
+									<a href="#">
+										<div>Fenlyn<span>.</span></div>
+										<div>Fenlyn Agency</div>
+									</a>
+								</div>
+								<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Eddy/Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+							</div>
+							<div class="footer_content d-flex flex-sm-row flex-column align-items-start justify-content-start flex-wrap">
+								
+								<!-- Footer Column -->
+								<div class="footer_col">
+									<div class="footer_title">Naromoru</div>
+									<div class="footer_list">
+										<ul>
+											<li>10 Naromoru</li>
+									        <li>Naromoru</li>
+									        <li>+254 791 865 606</li>
+										</ul>
+									</div>
+								</div>
+
+								<!-- Footer Column -->
+								<div class="footer_col">
+									<div class="footer_title">Nanyuki</div>
+									<div class="footer_list">
+										<ul>
+											<li>2591 Naromuru Town</li>
+                                            <li>Nanyuki</li>
+                                            <li>+254 791 865 606</li>
+										</ul>
+									</div>
+								</div>
+
+								<!-- Footer Column -->
+								<div class="footer_col">
+									<div class="footer_title">Nyeri</div>
+									<div class="footer_list">
+										<ul>
+											<li>1095 Nanyuki Road</li>
+                                            <li>Nyeri</li>
+                                            <li>+254 791 865 606</li>
+										</ul>
+									</div>
+								</div>
+
+								<!-- Footer Column -->
+								<div class="footer_col">
+									<div class="footer_title">Nairobi</div>
+									<div class="footer_list">
+										<ul>
+											<li>143 CBD Nairobi</li>
+											<li>Nairobi</li>
+											<li>+254 766 775 833</li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</div>
+	</footer>
+</div>
+
+<script src="{% static 'js/jquery-3.3.1.min.js' %}"></script>
+<script src="{% static 'styles/bootstrap-4.1.2/popper.js' %}"></script>
+<script src="{% static 'styles/bootstrap-4.1.2/bootstrap.min.js' %}"></script>
+<script src="{% static 'plugins/greensock/TweenMax.min.js' %}"></script>
+<script src="{% static 'plugins/greensock/TimelineMax.min.js' %}"></script>
+<script src="{% static 'plugins/scrollmagic/ScrollMagic.min.js' %}"></script>
+<script src="{% static 'plugins/greensock/animation.gsap.min.js' %}"></script>
+<script src="{% static 'plugins/greensock/ScrollToPlugin.min.js' %}"></script>
+<script src="{% static 'plugins/easing/easing.js' %}"></script>
+<script src="{% static 'plugins/parallax-js-master/parallax.min.js' %}"></script>
+<script src="{% static 'plugins/scrollTo/jquery.scrollTo.min.js' %}"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCIwF204lFZg1y4kPSIhKaHEXMLYxxuMhA"></script>
+<script src="{% static 'js/contact.js' %}"></script>
+</body>
+</html>
